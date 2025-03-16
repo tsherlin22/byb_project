@@ -1,0 +1,121 @@
+/* App.css */
+
+/* General Styles */
+body {
+    background-color: #ffffff; /* White background */
+    color: #6a0dad; /* Purple text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #6a0dad !important; /* Deep purple navbar */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text in the navbar */
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #dcdcdc !important; /* Light gray on hover */
+  }
+  
+  /* Page Container */
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Product Cards */
+  .card {
+    border: 1px solid #6a0dad;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #6a0dad;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #4b0082;
+  }
+  
+  .btn-primary {
+    background-color: #6a0dad;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4b0082;
+  }
+  
+  /* Total Price Section */
+  .total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6a0dad;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #6a0dad;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6a0dad;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  /* About Page Styling */
+.container {
+    padding: 40px 20px;
+  }
+  
+  h3, h4 {
+    color: #6a0dad;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  figure {
+    text-align: center;
+  }
+  
+  figure img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  figure figcaption {
+    font-size: 14px;
+    color: #6a0dad;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .text-center {
+    margin-top: 20px;
+  }
+  
+  

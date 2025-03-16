@@ -1,0 +1,30 @@
+/* NavBar Styles */
+.navbar-custom {
+    background-color: #6a0dad !important; /* Purple background */
+    padding: 15px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+  
+  .nav-link-custom {
+    color: #ffffff !important;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .nav-link-custom:hover {
+    color: #dcdcdc !important; /* Light gray hover effect */
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
